@@ -98,7 +98,7 @@
   })(document, 'script');
 </script>
 <% } %>
-<% if (config['mathjax']) { %>
+<% if (config['mathjax'] || page.mathjax ) { %>
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     menuSettings: {
